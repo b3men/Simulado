@@ -19,15 +19,15 @@ public class Atividade2 {
         c2.getCompetidores().add(a3);
         c2.getCompetidores().add(a4);
 
-        System.out.println(c1.compareTo(c2));
-        System.out.println(a1.compareTo(a6));
-        System.out.println(a5.compareTo(a2));
+        System.out.println(c1.compareTo(c2)); //0
+        System.out.println(a1.compareTo(a6)); //-1
+        System.out.println(a5.compareTo(a2)); //1
         c2.getCompetidores().add(new Atleta());
-        System.out.println(c1.compareTo(c2));
-        System.out.println(c2.getCompetidores().get(0));
-        System.out.println(c2.getCompetidores().get(1));
-        System.out.println(c2.getCompetidores().get(2));
-        System.out.println(c2.getCompetidores().get(3));
+        System.out.println(c1.compareTo(c2)); //-1
+        System.out.println(c2.getCompetidores().get(0)); //E 5: Medalha
+        System.out.println(c2.getCompetidores().get(1)); //C 3: Troféu
+        System.out.println(c2.getCompetidores().get(2)); //D 4: Medalha
+        System.out.println(c2.getCompetidores().get(3)); //Teste 0: Troféu
 
     }
 }

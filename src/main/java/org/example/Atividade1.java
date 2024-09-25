@@ -11,15 +11,15 @@ public class Atividade1 {
         Atleta a4 = a1;
         a1.setPosicao(4);
 
-        System.out.println(c1);
-        System.out.println(a1);
-        System.out.println(a2);
-        System.out.println(a3);
-        System.out.println(a4);
+        System.out.println(c1); //A TB 0
+        System.out.println(a1); //Teste 0: Medalha
+        System.out.println(a2); //Ana 0: Troféu
+        System.out.println(a3); //Pedro 5: Troféu
+        System.out.println(a4); //Teste 0: Medalha
 
         Competicao c2 = c1.clone();
         c2.setNome("Meia Maratona");
 
-        System.out.println(c2);
+        System.out.println(c2); //Meia Maratona TB 0
     }
 }
